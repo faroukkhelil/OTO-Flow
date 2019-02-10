@@ -24,21 +24,21 @@ JSON file Syntaxe will be provided later.
 
 ## Specification
 The web UI is composed of 4 panels :
-  1° ToolBar. Permits to :
-    1.1° Open Existing Workflow from Disk (File browser).
-    1.2° Save Workflow to Disk
-  2° Left/High Panel. Permits to create Resources (an Icon per resources): 
-    2.1 SMTP Server Connection.
-    2.2 Web Driver Connection.
+  - ToolBar. Permits to :
+    - Open Existing Workflow from Disk (File browser).
+    - Save Workflow to Disk
+  - Left/High Panel. Permits to create Resources (an Icon per resources): 
+    - SMTP Server Connection.
+    - Web Driver Connection.
     Rq : list will evoluate during the project 
-  3° Left/Low Panel that contains workflow policies :
-    3.1° Mail events (Send/get/..)
-    3.2° Web Scrapping (Click/Fill Form/Check Field value/..)
-    3.3° Variable management (Create Variable/Set value/ Get Value/ compare value to regex/..)
-  4° Right Panel: Main designer
-    4.1° Initially, This pannel contains : A Start (empty activity) and a (Stop empty activity).
-    4.2° Then, all activity should be added by Drag and drop from Pannel N°3.
-    4.3° When double clicking on an activity you have a form with the activity defintion.
+  - Left/Low Panel that contains workflow policies :
+    - Mail events (Send/get/..)
+    - Web Scrapping (Click/Fill Form/Check Field value/..)
+    - Variable management (Create Variable/Set value/ Get Value/ compare value to regex/..)
+  - Right Panel: Main designer
+    - Initially, This pannel contains : A Start (empty activity) and a (Stop empty activity).
+    - Then, all activity should be added by Drag and drop from Pannel N°3.
+    - When double clicking on an activity you have a form with the activity defintion.
  
  ## Delay
  
